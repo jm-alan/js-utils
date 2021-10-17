@@ -24,6 +24,7 @@ export class FunctionThread {
     );
     this.__worker.unref();
     this.__worker.on('message', msg => {
+      if (this.__joinable) return;
       this.__joinable = true;
       this.value = msg;
     });
