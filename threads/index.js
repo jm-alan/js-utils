@@ -32,7 +32,7 @@ export class FunctionThread {
 
   /**
    * Returns a promise that resolves when the function passed to the thread
-   * constructor has completed execution.
+   * constructor returns.
    */
   join () {
     return new Promise((resolve, reject) => {
