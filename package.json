@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "various typescript utilities for personal projects",
   "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jm-alan/ts-utils.git"
