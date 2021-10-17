@@ -1,20 +1,12 @@
 {
   "name": "utils",
   "version": "1.0.0",
-  "description": "various typescript utilities for personal projects",
-  "main": "index.ts",
+  "description": "various js utilities for personal projects and experimentation",
+  "main": "index.js",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jm-alan/ts-utils.git"
-  },
   "author": "JM Alan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jm-alan/ts-utils/issues"
-  },
-  "homepage": "https://github.com/jm-alan/ts-utils#readme",
   "devDependencies": {
-    "@types/node": "^16.11.1"
+    "semistandard": "^16.0.1"
   }
 }
