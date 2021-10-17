@@ -1,0 +1,22 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "various typescript utilities for personal projects",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jm-alan/ts-utils.git"
+  },
+  "author": "JM Alan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jm-alan/ts-utils/issues"
+  },
+  "homepage": "https://github.com/jm-alan/ts-utils#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.1"
+  }
+}
